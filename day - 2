@@ -1,3 +1,29 @@
+//problem -- 1 if statement
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age;
+    cin>>age;
+    
+    if (age>=18) {
+        cout<<"eligible for vote....!!";
+        
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 //problem -- 1 if - else statement
 
