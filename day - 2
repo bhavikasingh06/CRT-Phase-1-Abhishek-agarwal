@@ -262,6 +262,7 @@ int main()
 //smart home lightining
 // day -- motion (yes/no) -- light off
 //night -- motion (yes 100%) (no 10%)
+//enter 1 and 0 instead of yes no coz c++ does not support yes no 
 
 #include <iostream>
 using namespace std;
