@@ -113,6 +113,35 @@ int main()
 
 
 
+//problem -- 4.1 
+ //using ternary operator
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b;
+    int max_number;
+    cout<<"enter 1st number = ";
+    cin>>a;
+    cout<<"enter 2nd number = ";
+    cin>>b;
+    
+    //logic of ternary operator
+    
+    max_number = (a>b) ? a:b;
+    cout<<max_number<<" is greater ";
+    
+    return 0;
+}
+
+
+
+
+
+
+
 
 
 //problem -- 5
