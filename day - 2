@@ -23,8 +23,6 @@ int main()
 
 
 
-
-
 //problem -- 2 if - else statement
 
 #include <iostream>
@@ -82,5 +80,181 @@ int main()
    
     
     
+
+
+
+
+
+
+ //problem -- 4 
+ //using ternary operator
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b;
+    int max_number;
+    cin >> a >> b;
     
-   
+    //logic of ternary operator
+    
+    max_number = (a>b) ? a:b;
+    cout<<max_number;
+    
+    return 0;
+}
+
+
+
+
+
+
+
+//problem -- 5
+ //switch statement 
+ //problem name -- day name
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int dayNumber;
+    cin >> dayNumber;
+    cout << "the day is = ";
+    
+    switch(dayNumber) {
+        case 1:
+        cout<<"monday";
+        break;
+        
+        case 2:
+        cout<<"tuesday";
+        break;
+        
+        case 3:
+        cout<<"wednesday";
+        break;
+        
+        case 4:
+        cout<<"thursday";
+        break;
+        
+        case 5:
+        cout<<"friday";
+        break;
+        
+        case 6:
+        cout<<"saturday";
+        break;
+        
+        case 7:
+        cout<<"sunday";
+        break;
+        
+        default:
+        cout<<"enter a valid number";
+        
+    }
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+//problem -- 6
+//customer support IVR system
+// 1 = support
+// 2 = for billing
+// 3 = technical issue
+//4 = talk to agent
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int choice;
+    cin >> choice;
+    
+    switch(choice) {
+        
+        case 1:
+        cout<<" transferring call to the support team... ";
+        break;
+        
+        case 2:
+        cout<<" transferring call to the billing and accountant department... ";
+        break;
+        
+        case 3:
+        cout<<" connecting call to the technical team... ";
+        break;
+        
+        case 4:
+        cout<<" connecting call to the agent... ";
+        break;
+        
+        default:
+        cout<<" enter a valid choice";
+        
+    }
+    
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
