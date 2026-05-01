@@ -23,7 +23,6 @@ int main()
 
 
 
-
 //program 2
 //local and global variable
 
@@ -42,7 +41,6 @@ int main()
     return 0;
     
 }
-
 
 
 
@@ -77,7 +75,6 @@ int main()
 
 
 
-
 //program 4
 //swapping of two variables
 
@@ -99,8 +96,6 @@ int main()
     return 0;
     
 }
-
-
 
 
 
