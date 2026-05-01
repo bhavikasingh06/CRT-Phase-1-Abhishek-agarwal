@@ -112,6 +112,9 @@ int main()
 
 
 
+
+
+
 //problem -- 5
  //switch statement 
  //problem name -- day name
@@ -170,6 +173,7 @@ int main()
 
 
 
+
 //problem -- 6
 //customer support IVR system
 // 1 = support
@@ -211,6 +215,67 @@ int main()
     
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//problem -- 7
+//nested if - else condition
+//smart home lightining
+// day -- motion (yes/no) -- light off
+//night -- motion (yes 100%) (no 10%)
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string dayOrNight;
+    bool motionDetected;
+    
+    cout<<"is it day or night ? = ";
+    cin>>dayOrNight;
+    
+    cout<<"is motion detected ? = ";
+    cin>>motionDetected;
+    
+    if(dayOrNight == "Night" || dayOrNight == "night") {
+        if(motionDetected){
+            cout<<"turn on the LED with 100% brightness";
+        } else {
+            cout<<"turn on the LED with 10% brightness";
+        }
+    }else {
+        cout<<"turn off the lights";
+    }
+    
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
