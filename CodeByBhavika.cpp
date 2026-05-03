@@ -1,3 +1,4 @@
+//1
 //to check alphabet is in upper/lower in case
 #include <iostream>
 using namespace std;
@@ -17,3 +18,31 @@ int main() {
     return 0;
 }
 
+
+
+
+
+
+
+
+
+//2
+//age group classifer
+#include <iostream>
+using namespace std;
+int main(){
+    int age;
+    cout<<"enter age here = ";
+    cin>>age;
+    
+    if(age<18)
+    cout<<"Child";
+    else if(age>=18 && age<=30)
+    cout<<"Youngsters...!!";
+    else if(age>=31 && age<=60)
+    cout<<"Elder ppl";
+    else 
+    cout<<"Sinor citizens";
+    
+    return 0;
+}
