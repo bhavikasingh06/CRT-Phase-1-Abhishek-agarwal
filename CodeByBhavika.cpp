@@ -46,3 +46,62 @@ int main(){
     
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+//3
+//sum and average of 3 numbers
+#include<iostream>
+using namespace std;
+int main(){
+    int num1;
+    int num2;
+    int num3;
+    cout<<"enter 1st number = ";
+    cin>> num1;
+    cout<<"enter 2nd number = ";
+    cin>> num2;
+    cout<<"enter 3rd number = ";
+    cin>> num3;
+    
+    int sum;
+    sum = num1+num2+num3;
+    cout<<"sum = "<<sum<<endl;
+    
+    int avg;
+    avg = sum/3;
+    cout<<"avg = "<<avg<<endl;
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
