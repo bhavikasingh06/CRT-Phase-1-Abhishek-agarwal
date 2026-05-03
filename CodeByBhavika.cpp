@@ -93,6 +93,38 @@ int main(){
 
 
 
+//5
+//grade calculator
+#include<iostream>
+using namespace std;
+int main() {
+    int num;
+    cout<<"enter number of students = ";
+    cin>>num;
+    
+    if(num >= 90)
+    {
+        cout<<"grade A"<<endl;
+    }
+    else if(num >= 70)
+    {
+        cout<<"grade B"<<endl;
+    }
+    else if(num >= 50)
+    {
+        cout<<"grade C"<<endl;
+    }
+    else
+    {
+        cout<<"fail"<<endl;
+    }
+    return 0;
+}
+
+
+
+
+
 
 
 
