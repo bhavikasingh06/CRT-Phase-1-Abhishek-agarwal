@@ -132,7 +132,7 @@ int main() {
 
 
 
-//6
+//5
 //leap year check
 #include<iostream>
 using namespace std;
@@ -151,6 +151,77 @@ int main() {
     }
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//6
+//area of shapes
+#include<iostream>
+using namespace std;
+int main() {
+    int choice;
+    
+    cout<<"find area of shapes....!\n";
+    cout<<"1. rectangle\n";
+    cout<<"2. circle\n";
+    cout<<"3. triangle\n";
+    cout<<"enter your choice.. = ";
+    cin>>choice;
+    
+    if(choice == 1 ||)
+    {
+        float length, width;
+        cout<<"enter length and width of a rectangle";
+        cin>>length>> width;
+        cout<<"area of rectangle is = "<<length * width<<endl;
+    }
+    else if(choice == 2)
+    {
+        float radius;
+        cout<<"enter radius of circle = ";
+        cin>>radius;
+        cout<<"radius of a circle is = "<<3.14*radius*radius<<endl;
+    }
+    else if(choice == 3)
+    {
+        int base, height;
+        cout<<"enter base and height of a triangle = ";
+        cin>>base>>height;
+        cout<<"area of triangle is = "<<0.5*base*height<<endl;
+    }
+    else
+    {
+        cout<<"invalid choice.. try again!!"<<endl;
+    }
+    return 0 ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
