@@ -12,3 +12,63 @@ int main() {
     }
     return 0;
 }
+
+
+
+
+
+
+
+
+
+// problem 2  
+//print pattern solid square
+#include <iostream>
+using namespace std;
+int main() {
+    
+    for(int i = 1; i <= 5; i++){
+        for(int j = 1; j <= 5; j++){
+        cout<<"*";
+        }
+        cout<<"\n";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+// problem 3  
+//print pattern solid rectangle
+#include <iostream>
+using namespace std;
+int main() {
+    
+    for(int i = 1; i <= 3; i++){
+        for(int j = 1; j <= 9; j++){
+        cout<<"*";
+        }
+        cout<<"\n";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
