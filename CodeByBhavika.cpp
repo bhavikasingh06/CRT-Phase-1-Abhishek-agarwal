@@ -178,7 +178,7 @@ int main() {
     cout<<"enter your choice.. = ";
     cin>>choice;
     
-    if(choice == 1 ||)
+    if(choice == 1)
     {
         float length, width;
         cout<<"enter length and width of a rectangle";
