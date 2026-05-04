@@ -29,7 +29,7 @@ int main() {
     
     for(int i = 1; i <= 5; i++){
         for(int j = 1; j <= 5; j++){
-        cout<<"*";
+        cout<<" *";
         }
         cout<<"\n";
     }
@@ -52,7 +52,37 @@ int main() {
     
     for(int i = 1; i <= 3; i++){
         for(int j = 1; j <= 9; j++){
-        cout<<"*";
+        cout<<" *";
+        }
+        cout<<"\n";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+// problem 3.1   
+//print pattern solid rectangle by taking user input
+#include <iostream>
+using namespace std;
+int main() {
+    
+    int row, col;
+    cout<<"enter number of rows = ";
+    cin>>row;
+    cout<<"enter number of columns = ";
+    cin>>col; 
+    
+    for(int i = 1; i <= row; i++){
+        for(int j = 1; j <= col; j++){
+        cout<<" *";
         }
         cout<<"\n";
     }
@@ -69,6 +99,134 @@ int main() {
 
 
 
+//problem 4 
+// pattern right angle triangle
+#include <iostream>
+using namespace std;
+int main(){
+   
+    
+    for (int i = 1; i <= 6; i++){
+        for (int j = 1; j <= i; j++){
+            cout<<" *";
+        }
+        cout<<"\n";
+    }
+}
 
 
+
+
+
+
+
+
+
+//problem 4.1  
+// pattern right angle triangle
+#include <iostream>
+using namespace std;
+int main(){
+   
+    
+    for (int i = 6; i >= 1; i--){
+        for (int j = 1; j <= i; j++){
+            cout<<" *";
+        }
+        cout<<"\n";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//problem 5
+// pattern square with empty space in mid
+#include <iostream>
+using namespace std;
+int main(){
+    
+    //int n=5;
+    for(int i = 1; i <=5; i++){
+        for (int j = 1; j <=5; j++){
+            if(i==1 || i==5 || j==1 || j == 5){
+                cout<<" *";
+            }else{
+            cout<<"  ";
+            }
+        }
+    cout<<"\n";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+//problem 6
+//print pattern left right angle triangle 
+#include <iostream>
+using namespace std;
+int main(){
+    
+    int n = 5;
+    
+        for(int i = 1; i <= n; i++){
+            for(int j = 1; j<= n-i; j++){
+            cout<<" ";
+        }
+        for( int k = 1; k <= i; k++){
+            cout<<"*";
+        }
+        cout<<endl;
+        }
+        
+    
+}
+
+
+
+
+
+
+
+
+
+
+//problem 7
+//print pattern pyramid
+#include <iostream>
+using namespace std;
+int main(){
+    
+    int n = 5;
+    
+        for(int i = 1; i <= n; i++){
+            for(int j = 1; j<= n-i; j++){
+            cout<<" ";
+        }
+        for( int k = 1; k <= i; k++){
+            cout<<" *";
+        }
+        cout<<endl;
+        }
+        
+    
+}
 
