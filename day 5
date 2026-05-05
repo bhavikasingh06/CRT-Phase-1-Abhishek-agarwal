@@ -18,3 +18,184 @@ int main(){
          cout<<"\n";
      }
 }
+
+
+
+
+
+
+
+
+
+
+
+// prblm 2  
+//addition of 2 no.
+#include<iostream>
+using namespace std;
+int main(){
+    int a = 10;
+    int b = 5;
+    int c = a + b;
+    cout <<c;
+}
+
+
+
+
+
+
+
+
+
+
+//prblm 3 
+// function with some values and some return values
+#include<iostream>
+using namespace std;
+
+int calculateArea(int length, int width){
+    return length * width;
+}
+
+int main(){
+    int a = 10;
+    int b = 5;
+    int area = calculateArea(a, b);
+    cout <<area;
+}
+
+
+
+
+
+
+
+
+
+
+
+//prblm 4
+//types of functions
+//program 4.1 no argument, no return value
+
+#include<iostream>
+using namespace std;
+
+void bellRing(){
+    cout<<"tingg tongg...";
+}
+int main(){
+    bellRing();
+}
+
+
+
+
+
+
+
+
+
+
+//prblm 4
+//types of functions
+//program 4.2 argument, no return value
+
+#include<iostream>
+using namespace std;
+
+void sendMessage(string message){
+    cout<<message;
+}
+int main(){
+    sendMessage("BJP wons.....!");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//prblm 4
+//types of functions
+//program 4.3 no argument, return value
+
+#include<iostream>
+using namespace std;
+
+int ticketNumbere(){
+    return 101;
+}
+int main(){
+    cout<<ticketNumbere();
+}
+
+
+
+
+
+
+
+
+
+
+//prblm 4
+//types of functions
+//program 4.4 argument , return value
+//convert rupees into dollar
+
+#include<iostream>
+using namespace std;
+
+float convertToDollar(float rupees){
+    return rupees / 100;
+}
+int main(){
+    float rupees,dollar;
+    cout<<"enter amount of rupees = ";
+    cin>>rupees;
+    dollar = convertToDollar(100);
+    cout<<" dollar $ = "<<dollar;
+}
+
+
+
+
+
+
+
+
+
+
+// prblm 5 
+// function overloading
+#include<iostream>
+using namespace std;
+
+int add (int a, int b){
+    return a + b ;
+}
+
+int add (int a, int b, int c){
+    return a + b + c;
+}
+
+float add (float a, float b, float c, float d){
+    return a + b + c + d;
+}
+
+int main(){
+    cout<<add(5,2)<<"\n";
+    cout<<add(5,2,3)<<"\n";
+    cout<<add(5.5,2.3,5.5, 7.5)<<"\n";
+}
+
+
+
