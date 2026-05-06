@@ -44,8 +44,6 @@ using namespace std;
 
 
 
-
-
 // Program --3 
 // Smart AC remote 
 // 1. Turn on -- 22°C
@@ -82,6 +80,38 @@ int main() {
 
 
 
+
+
+
+//program 5
+//swapping values using pointers
+#include <iostream>
+using namespace std;
+
+void swap(int *a, int *b)
+{
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main()
+{
+    int x , y;
+    cout<<" enter x value = ";
+    cin>>x;
+    cout<<" enter y value = ";
+    cin>>y;
+
+    cout << "Before swapping = " << "x = "<< x << " " <<", y = "<< y << endl;
+
+    swap(&x, &y);
+
+    cout << "After swapping = " <<"x = "<< x << " " <<", y = "<<  y << endl;
+
+    return 0;
+}
 
 
 
