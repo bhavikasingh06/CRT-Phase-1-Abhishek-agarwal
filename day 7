@@ -178,3 +178,77 @@ int main(){
 
 
 
+
+
+
+
+
+
+
+
+
+//program 5    
+// constructor overloading 
+
+#include <iostream>
+using namespace std;
+
+class rectangle{
+public:    
+    int length;
+    int width;
+    
+    //constructor -- 1 (default)
+    rectangle(){
+        length = 10;
+        width = 20;
+    }
+    
+    //constructor -- 2 (parameterized)
+    rectangle(int l){
+        length = l;
+        width = 20;
+    }
+    
+    //constructor -- 1 (parameterized)
+    rectangle(int l, int b){
+        length = l;
+        width = b;
+    }
+    
+void area(){
+    cout<< length * width;
+}
+
+};
+
+int main(){
+    rectangle r1;
+    r1.area();
+    
+    rectangle r2(5);
+    r2.area();
+    
+    rectangle r3(5,2);
+    r3.area();
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
