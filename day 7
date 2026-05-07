@@ -65,6 +65,84 @@ int main(){
 
 
 
+//program 3  
+// access specifier 
+// protected
+
+#include <iostream>
+using namespace std;
+
+class parent{
+protected:
+    int secretCode = 1234;
+};
+
+class child : public parent{
+public:
+    void accesLocker(){
+        cout << secretCode;
+    }
+};
+
+int main(){
+    child obj1;
+    obj1.accesLocker();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//program 4.1   
+// constructor 
+// parameterized constructor
+
+#include <iostream>
+using namespace std;
+
+class student{
+    
+public:  
+    string name;
+    int age; 
+    
+    student(string studentName, int studentAge){
+        name = studentName;
+        age = studentAge;
+    }
+    
+void introduce(){
+    cout<<"Hiii...! there, this person name is "<<name <<" and her age is "<< age <<"\n";
+    }
+};
+
+int main(){
+    student s1("bhavika ", 20);
+    s1.introduce();
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
