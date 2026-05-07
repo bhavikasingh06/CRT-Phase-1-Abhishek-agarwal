@@ -145,6 +145,35 @@ int main(){
 
 
 
+//program 4.2    
+// constructor 
+// default constructor
+
+#include <iostream>
+using namespace std;
+
+class wifiConnection {
+public:
+    string networkName;
+    int password;
+    
+    wifiConnection(){
+        networkName = " ACT fiber name";
+        password = 1234;
+    }
+
+void showDetails(){
+    cout<< networkName <<" "<< password;
+}
+};
+
+int main(){
+    wifiConnection obj1;
+    obj1.showDetails();
+    
+}
+
+
 
 
 
