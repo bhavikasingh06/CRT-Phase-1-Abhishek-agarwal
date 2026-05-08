@@ -267,3 +267,41 @@ int main(){
 
 
 
+
+
+
+
+// problem 2 
+// encapsulation
+
+#include <iostream>
+using namespace std;
+
+class BankAccount{
+private:
+    int bankBalance;
+public:   
+    void setBalance(int amount){
+        if (amount >= 0){
+            bankBalance = amount;
+        } else {
+            cout << " enter a valid amount ";
+        }
+    }
+    
+    int getbalance(){
+        return bankBalance;
+    }
+};
+
+int main(){
+    BankAccount obj1;
+    obj1.setBalance(5000);
+    cout << obj1.getbalance();
+}
+
+
+
+
+
+
