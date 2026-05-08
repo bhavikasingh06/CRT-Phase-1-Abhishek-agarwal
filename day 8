@@ -67,3 +67,77 @@ int main() {
     obj1.drive();
     obj1.speed();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 1.3 hierarchical inheritance 
+
+#include <iostream>
+using namespace std;
+
+class vehicle {
+public:
+    void start(){
+        cout <<" vehicle start "<<"\n";
+    }
+    
+};
+
+class bike : public vehicle {
+public:
+    void drive(){
+        cout <<" bike is running "<<"\n";
+    }
+    
+};
+
+class car : public vehicle {
+public:
+    void drive(){
+        cout <<" car is running "<<"\n";
+    } 
+    
+};
+
+int main(){
+    
+    car c;
+    bike b;
+    c.start();
+    c.drive();
+    b.start();
+    b.drive();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
