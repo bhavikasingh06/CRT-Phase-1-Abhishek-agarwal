@@ -134,6 +134,40 @@ int main(){
 
 
 
+// 1.4 multiple inheritance 
+
+#include <iostream>
+using namespace std;
+
+class parent1 {
+public:
+    void paiseDo(){
+        cout <<" mummy paise dedo ghummi jana h "<<"\n";
+    }
+};
+
+class parent2 {
+public:
+    void paiseDo(){
+        cout <<" papa paise do books lani h "<<"\n";
+    }
+};
+
+class child : public parent1, public parent2 {
+public:
+    void drive(){
+        cout <<" car is running "<<"\n";
+    } 
+};
+
+int main(){
+    
+    child c;
+    // c.paiseDoMummy();
+    // c.paiseDoPapa();
+    c.paiseDo();
+}
+
 
 
 
