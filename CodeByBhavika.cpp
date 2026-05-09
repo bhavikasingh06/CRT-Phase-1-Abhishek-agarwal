@@ -342,3 +342,37 @@ int main(){
 
 
 
+
+
+//10
+//multiple inheritance
+#include <iostream>
+using namespace std;
+
+class Father{
+public:
+    void showFather(){
+        cout<<"this is father class "<<endl;
+    }
+};
+
+class Mother{
+public:
+    void showMother(){
+        cout<<"this is mother class "<<endl;
+    }
+};
+
+class Child : public Father, public Mother{
+public:
+    void showChild(){
+        cout<<"this is child class "<<endl;
+    }
+};
+
+int main(){
+    Child c;
+    c.showFather();
+    c.showMother();
+    c.showChild();
+}
