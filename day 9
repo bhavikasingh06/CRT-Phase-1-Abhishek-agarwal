@@ -100,3 +100,52 @@ int main(){
     cout<< "sum of array elements are "<<sum;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//problem 4   
+//linear search
+
+#include <iostream>
+using namespace std;
+int main(){
+    int arr[5] = {10,20,30,40,50};
+    int searchElement; 
+    
+    cout<<"enter elements to search = ";
+    cin>>searchElement;
+    
+    for (int i = 0; i < 5; i++){
+        if (arr[i] == searchElement){
+            cout<<"element found at index = "<<i;
+            return 0;
+        }
+    }
+    cout<<"element not found";
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
