@@ -217,8 +217,8 @@ int main() {
 
 
 
-//INHERITANCE
 //7
+//INHERITANCE
 // 1 single inheritance
 #include <iostream>
 using namespace std;
@@ -241,6 +241,67 @@ int main(){
     d.eat();
     d.bark();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//8
+//2 multilevel inheritance
+#include <iostream>
+using namespace std;
+class Animal{
+public:
+    void eat(){
+        cout<<"animals eats food.."<<endl;
+    }
+};
+
+class Dog : public Animal{
+public:
+    void bark(){
+        cout<<"dog bark louder"<<endl;
+    }
+};
+
+class Puppy : public Dog{
+public:
+    void weep(){
+        cout<<"puppy weeps"<<endl;
+    }
+};
+
+int main(){
+    Puppy p;
+    p.eat();
+    p.bark();
+    p.weep();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
