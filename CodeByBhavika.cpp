@@ -376,3 +376,58 @@ int main(){
     c.showMother();
     c.showChild();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//11
+//hybrid inheritance
+#include<iostream>
+using namespace std;
+class Person{
+public:
+    void show(){
+        cout<<"this is person class"<<endl;
+    }
+};
+
+class Student : virtual public Person {
+    
+};
+
+class Employee : virtual public Person {
+    
+};
+
+class Manager : public Student, public Employee {
+    
+};
+
+int main(){
+    Manager m;
+    m.show();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
