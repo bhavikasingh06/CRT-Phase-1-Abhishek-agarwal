@@ -299,7 +299,40 @@ int main(){
 
 
 
+//9
+//hierarchical inheritance
+#include <iostream>
+using namespace std;
+class Animal{
+public:
+    void eat(){
+        cout<<"animal eats food "<<endl;
+    }
+};
 
+class Dog : public Animal{
+public:
+    void bark(){
+        cout<<"dog bark "<<endl;
+    }
+};
+
+class Cat : public Animal{
+public:
+    void meow(){
+        cout<<"cat meowsss "<<endl;
+    }
+};
+
+int main(){
+    Dog d;
+    d.eat();
+    d.bark();
+    
+    Cat c;
+    c.eat();
+    c.meow();
+}
 
 
 
