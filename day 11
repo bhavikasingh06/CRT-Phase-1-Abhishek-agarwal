@@ -1,0 +1,30 @@
+//program 1 
+//palindrome string
+#include<iostream>
+using namespace std;
+
+bool isPalindrome(string str){
+    int start = 0;
+    int end = str.size()-1;
+    while(start < end){
+        if (str[start] != str [end]){
+            return false;
+        }
+        start ++; 
+        end --;
+    }
+    return true;
+}
+
+int main(){
+    string str;
+    cout<<"enter a string = ";
+    cin>>str;
+    
+    if (isPalindrome(str)){
+        cout<<"is palindrome";
+    }else{
+        cout<<"not palindrome";
+    }
+    return 0;
+}
