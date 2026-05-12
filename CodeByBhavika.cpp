@@ -430,4 +430,179 @@ int main(){
 
 
 
+// 1 
+//print series 1 to n
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    
+    for(int i=1; i <= n; i++){
+        cout<<i<<" ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+// 2 
+//print series n to 1
+#include <iostream>
+using namespace std;
+int main(){
+    int N;
+    cin>>N;
+    
+    for(int i=N; i >= 0; i--){
+        cout<<i<<" ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// 3
+//print 1*1 = 1, 2*2 = 4, 3*3 = 9.......
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    
+    for(int i=1; i <= n; i++){
+        cout<<i*i<<" ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// 4  
+//print 1*1*1 = 1, 2*2*2 = 8, 3*3*3 = 27.......
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    
+    for(int i=1; i <= n; i++){
+        cout<<i*i*i<<" ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+// 4.2  
+//print n number with some random digit
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    
+    for(int i=1; i <= n; i++){
+        cout<<i*3<<" ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// 5 
+//print odd number 1 3 5 7 9..... increase by 2
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    
+    for(int i=1; i <= 2*n-1; i = i +2){
+        cout<<i<<" ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+notes :- 
+Quick Trick to Remember
+
+Series  	Formula
+1,2,3...	i
+N...1   	i--
+1,4,9...	i*i
+1,8,27...	i*i*i
+1,3,5...	i=i+2
+
+
+
+
+
+
+
+
+
+
+// 6
+//print even number 2 4 6 8 ... increase by 2
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    
+    for(int i=0; i <= 2*n-1; i = i + 2){
+        cout<<i<<" ";
+    }
+    return 0;
+}
+
+
 
