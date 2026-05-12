@@ -1,0 +1,49 @@
+//program 1   
+//recursion
+#include<iostream>
+using namespace std;
+
+void printNumber(int n){
+    //base condition
+    if(n> 5){
+        return;
+    }
+    //logic
+    cout<< n <<" ";
+    printNumber(n+1);
+}
+
+int main(){
+    printNumber(1);
+}
+
+
+
+
+
+
+
+
+
+
+//program 1   
+//factorial
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    int factorial = 1;
+    
+    cout<<"Enter a number = ";
+    cin>>n;
+    
+    for(int i = 1; i <= n; i++){
+        factorial = factorial * i;
+    }
+    cout<<"Factorial of "<< n << " is "<<factorial;
+    
+    return 0;
+}
+
+
