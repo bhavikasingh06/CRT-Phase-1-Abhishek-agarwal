@@ -131,7 +131,6 @@ int main() {
 
 
 
-
 //5
 //leap year check
 #include<iostream>
@@ -151,8 +150,6 @@ int main() {
     }
     return 0;
 }
-
-
 
 
 
@@ -253,8 +250,6 @@ int main(){
 
 
 
-
-
 //8
 //2 multilevel inheritance
 #include <iostream>
@@ -286,8 +281,6 @@ int main(){
     p.bark();
     p.weep();
 }
-
-
 
 
 
@@ -387,8 +380,6 @@ int main(){
 
 
 
-
-
 //11
 //hybrid inheritance
 #include<iostream>
@@ -416,8 +407,6 @@ int main(){
     Manager m;
     m.show();
 }
-
-
 
 
 
@@ -501,7 +490,6 @@ int main(){
 
 
 
-
 // 4  
 //print 1*1*1 = 1, 2*2*2 = 8, 3*3*3 = 27.......
 #include <iostream>
@@ -515,7 +503,6 @@ int main(){
     }
     return 0;
 }
-
 
 
 
@@ -642,8 +629,6 @@ int main(){
 
 
 
-
-
 //problem 8  
 //print 1 0 1 0 1 0 
 #include <iostream>
@@ -743,3 +728,124 @@ Series	    Logic
 
 
 
+
+
+
+
+
+//problem 11 
+//print 0 1 2 3 0 1 2 3 repeat 
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    
+    for(int i = 0; i < n; i++){
+        cout<<i % 4<<" ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+//problem 12 
+//print 0 1 2 3 0 1 2 3 repeat 
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    
+    for(int i = 0; i < n; i++){
+        cout<<(i % 4) + 1 <<" ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//problem 13 
+//fibonacci series Each new number is the sum of previous two.
+// Example:
+// 0+1=1
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    
+    int a = 0, b = 1, c;
+    
+    for(int i = 0; i < n; i++){
+        cout<< a <<" ";
+        c = a + b;
+        a = b;
+        b = c;
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+Quick Trick to Remember
+Series	            Formula
+0,1,2,3 repeat  	i % 4
+1,2,3,4 repeat	    (i % 4)+1
+Fibonacci       	next = a+b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
