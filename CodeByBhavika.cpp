@@ -778,10 +778,21 @@ int main(){
 
 
 
+Quick Trick to Remember
+Series	            Formula
+0,1,2,3 repeat  	i % 4
+1,2,3,4 repeat	    (i % 4)+1
 
 
-//problem 13 
-//fibonacci series Each new number is the sum of previous two.
+
+
+
+
+
+
+
+// problem 13 
+// fibonacci series Each new number is the sum of previous two.
 // Example:
 // 0+1=1
 #include<iostream>
@@ -810,12 +821,40 @@ int main(){
 
 
 
-Quick Trick to Remember
-Series	            Formula
-0,1,2,3 repeat  	i % 4
-1,2,3,4 repeat	    (i % 4)+1
-Fibonacci       	next = a+b
 
+//problem 14
+//tribonacci series Each new number is the sum of previous three.
+#include <iostream>
+using namespace std;
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    
+    int a =0, b = 0, c = 1, d;
+    
+    for(int i = 1; i <= n; i++){
+        cout<< a <<" ";
+        d = a + b + c;
+        a = b;
+        b = c;
+        c = d;
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+🔑 Easy Trick
+Series	     Formula
+Fibonacci   	a + b
+Tribonacci  	a + b + c
 
 
 
