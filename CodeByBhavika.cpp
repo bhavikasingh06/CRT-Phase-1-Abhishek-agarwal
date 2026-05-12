@@ -606,3 +606,140 @@ int main(){
 
 
 
+
+
+
+
+
+
+
+//problem 7 
+//print 1 -1 1 -1 
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter a number = ";
+    cin>>n;
+    
+    for (int i = 1; i <= n; i++){
+        if (i % 2 ==1)
+            cout<<" 1, ";
+        else
+            cout<<" -1, ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//problem 8  
+//print 1 0 1 0 1 0 
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter a number = ";
+    cin>>n;
+    
+    for(int i = 1; i <= n ; i++){
+        if(i % 2 == 1)
+            cout<<" 1 ";
+        else
+            cout<<" 0 ";
+    }
+    return 0;
+}
+    
+
+
+
+
+
+
+
+
+
+
+//problem 9 
+//print 1 -3 5 -7 
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter a number = ";
+    cin>>n;
+    
+    for (int i = 1; i <= n; i++){
+        int num = i*2 - 1;
+        
+        if (i % 2 ==1)
+            cout<<num<<" ";
+        else
+            cout<<- num<<" ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//problem 10 
+//print 9 99 999 9999 
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter a number = ";
+    cin>>n;
+    
+    int num = 0;
+    
+    for (int i = 1; i <= n; i++){
+        num = num*10 + 9;
+        cout<<num<<" ";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+Quick Memory Trick
+Series	    Logic
+1,-1,1,-1	Alternate sign
+1,0,1,0	    Alternate 1 and 0
+1,-3,5,-7	Odd numbers + alternate sign
+9,99,999	num = num*10+9
+
+
+
+
+
+
