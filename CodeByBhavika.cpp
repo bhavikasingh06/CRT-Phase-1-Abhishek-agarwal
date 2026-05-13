@@ -867,6 +867,184 @@ Tribonacci  	a + b + c
 
 
 
+//problem 15 
+//calculate sum of digit 
+#include <iostream>
+using namespace std;
+int main(){
+    int num, sum = 0, digit;
+    cout<<"enter a number = ";
+    cin>>num;
+    
+    while(num > 0){
+        digit = num % 10;
+        sum = sum + digit;
+        num = num / 10;
+    }
+    cout<<"sum of digits are = "<<sum;
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//problem 16 
+//count digit of a number 
+#include <iostream>
+using namespace std;
+int main(){
+    int num, count = 0;
+    cout<<"enter a number = ";
+    cin>>num;
+    
+    while(num > 0){
+        num = num / 10;
+        count++;
+    }
+    cout<<"total digits are = "<<count;
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//problem 17 
+//reverse a number 
+#include <iostream>
+using namespace std;
+int main(){
+    int num, reverse = 0, digit;
+    cout<<"enter a number = ";
+    cin>>num;
+    
+    while(num > 0){
+        digit = num % 10;
+        reverse = reverse * 10 + digit;
+        num = num / 10;
+    }
+    cout<<"reversed number is = "<<reverse;
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//problem 18 
+//palindrome number  
+#include <iostream>
+using namespace std;
+int main(){
+    int num, original, reverse = 0, digit;
+    
+    cout<<"enter a number = ";
+    cin>>num;
+    
+    original = num;
+    
+    while(num > 0){
+        digit = num % 10;
+        reverse = reverse * 10 + digit;
+        num = num / 10;
+    }
+    if(original == reverse)
+        cout<<"palindrome ";
+    else
+        cout<<"not palindrome";
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//problem 19 
+//factorial of number 
+#include <iostream>
+using namespace std;
+int main(){
+    int num, fact = 1;
+    
+    cout<<"enter a number = ";
+    cin>>num;
+    
+    for(int i = 1; i <= num; i++){
+        fact = fact * i;
+    }
+    cout<<"factorial = "<<fact;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+| Program        | Main Formula / Logic             | 
+| -------------- | -------------------------------- | 
+| Sum of digits  | `sum = sum + digit`              | 
+| Count digits   | `count++`                        | 
+| Reverse number | `reverse = reverse * 10 + digit` |
+| Palindrome     | `if(original == reverse)`        | 
+| Factorial      | `fact = fact * i`                | 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
