@@ -61,3 +61,87 @@ int main()
 
 
 
+
+
+
+
+
+
+//program 3 
+//binary string without consicutive 1 
+#include <iostream>
+using namespace std;
+
+void generate(string str, int n, int last)
+{
+    if(str.length() == n)
+    {
+        cout << str << endl;
+        return;
+    }
+
+    generate(str + "0", n, 0);
+
+    if(last == 0)
+        generate(str + "1", n, 1);
+}
+
+int main()
+{
+    int n;
+    cout << "Enter length: ";
+    cin >> n;
+
+    generate("", n, 0);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//program 4  
+//linked list 
+#include <iostream>
+using namespace std;
+
+class node{
+public:
+     int data;
+     node* next;
+     
+     node(int new_data){
+         this->data = new_data;
+         this->next = nullptr;
+     }
+};
+
+void traversal(node * head){
+    while (head != nullptr){
+        cout<<head->data<<" ";
+        head= head->next;
+    }
+}
+
+int main(){
+    node* head = new node(10);
+    head->next = new node(20);
+    head->next->next = new node(30);
+    head->next->next->next = new node(40);
+    traversal(head);
+    return 0;
+}
+
+
+
+
+
+
