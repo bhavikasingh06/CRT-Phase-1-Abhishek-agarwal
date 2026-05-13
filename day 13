@@ -1,0 +1,63 @@
+//program 1 
+//binary string without consicutive 1 
+#include <iostream>
+using namespace std;
+
+void generate(string str, int n, int last)
+{
+    if(str.length() == n)
+    {
+        cout << str << endl;
+        return;
+    }
+
+    generate(str + "0", n, 0);
+
+    if(last == 0)
+        generate(str + "1", n, 1);
+}
+
+int main()
+{
+    int n;
+    cout << "Enter length: ";
+    cin >> n;
+
+    generate("", n, 0);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+//program 2 
+//
+#include <iostream>
+using namespace std;
+
+int rec(int n){
+    if (n < 4)
+        return 1;
+    return rec(n - 4) + rec(n - 1);
+}
+int main()
+{
+    int n;
+    cout << "Enter length: ";
+    cin >> n;
+    cout << "result = "<<rec(n) ;
+}
+
+
+
+
+
+
+
+
