@@ -1045,6 +1045,28 @@ int main(){
 
 
 
+// //problem 20  
+//calculate power of number 
+#include <iostream>
+using namespace std;
+int main(){
+    int n, p, result = 1;
+    
+    cout<<"enter number = ";
+    cin>>n;
+    
+    cout<<"enter power = ";
+    cin>>p;
+    
+    for(int i = 1; i <= p; i++){
+        result = result * n;
+    }
+    cout<<"answer = "<<result;
+    
+    return 0;
+}
+
+
 
 
 
