@@ -1192,7 +1192,7 @@ int main(){
     cout<<" enter b = ";
     cin>>b;
     
-    if(a<b){
+    if(a<b || b>a){
         cout<<"a is smaller";
     }else{
         cout<<"b is smaller";
