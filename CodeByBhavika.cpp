@@ -1103,4 +1103,116 @@ int main(){
 
 
 
+// 22
+// Add two numbers user input
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+    cout<<" enter a = ";
+    cin>>a;
+    cout<<" enter b = ";
+    cin>>b;
+    c = a + b;
+    cout<<"sum = "<<c;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+//23
+//area of recangle 
+#include<iostream>
+using namespace std;
+int main(){
+    int l,b,c;
+    cout<<" enter length = ";
+    cin>>l;
+    cout<<" enter width = ";
+    cin>>b;
+    c = l * b;
+    cout<<"area of rectangle is = "<<c;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//24
+//area of square
+#include<iostream>
+using namespace std;
+int main(){
+    int a, area;
+    cout<<" enter length = ";
+    cin>>a;
+    area = a*a;
+    cout<<"area of square is = "<<area;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//25
+//min of number
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b;
+    cout<<" enter a = ";
+    cin>>a;
+    cout<<" enter b = ";
+    cin>>b;
+    
+    if(a<b){
+        cout<<"a is smaller";
+    }else{
+        cout<<"b is smaller";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
