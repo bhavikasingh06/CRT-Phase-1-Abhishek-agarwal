@@ -1348,6 +1348,131 @@ int main(){
 
 
 
+//30
+//find max of two number
+#include<iostream>
+using namespace std;                     
+int main(){
+    int a, b;
+    cout<<"enter first number = ";
+    cin>>a;
+    cout<<"enter second number = ";
+    cin>>b;
+    
+    if(a>b || b<a){
+        cout<<"number "<<a<<" is greater";
+    }else{
+        cout<<"number "<<b<<" is greater";
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//31
+//factorial of number
+#include<iostream>
+using namespace std;                     
+int main(){
+    int n, fact = 1;
+    cout<<"enter a number = ";
+    cin>>n;
+    
+    for(int i = 1; i <= n; i++){
+        fact = fact*i;
+    }
+    cout<<"factorial of "<<n<<" is = "<<fact;
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//32
+//driving license
+#include<iostream>
+using namespace std;                     
+int main(){
+    int age;
+    cout<<"enter age = ";
+    cin>>age;
+    
+    if(age >= 18)
+        cout<<"driving licensed allowed";
+        
+    else if(age >= 1 && age < 18)
+        cout<<"not allowed licensed.. wait to turn 18";
+        
+    else
+        cout<<"enter valid age ";
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//32.1
+//driving license 
+#include<iostream>
+using namespace std;                     
+int main(){
+    int age;
+    cout<<"enter age = ";
+    cin>>age;
+    
+    if(age >= 18)
+        cout<<"driving licensed allowed";
+    
+    else
+        cout<<"not allowed ";
+    
+    return 0;
+}
+
+
+
+
+
 
 
 
