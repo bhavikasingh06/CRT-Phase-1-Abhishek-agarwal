@@ -1181,24 +1181,58 @@ int main(){
 
 
 
+
 //25
 //min of number
 #include<iostream>
-using namespace std;
+using namespace std;                     
 int main(){
     int a,b;
     cout<<" enter a = ";
     cin>>a;
     cout<<" enter b = ";
     cin>>b;
-    
     if(a<b || b>a){
-        cout<<"a is smaller";
+        cout<<"a " << a <<" is smaller";
     }else{
-        cout<<"b is smaller";
+        cout<<"b " << b << " is smaller";
     }
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//26
+//number is even or odd
+#include<iostream>
+using namespace std;                     
+int main(){
+    int num;
+    cout<<"enter a number = ";
+    cin>>num;
+    
+    if(num % 2 == 0 ){
+        cout<<"even number ";
+    }else{
+        cout<<"odd number";
+    }
+    
+    return 0;
+}
+ 
+
 
 
 
