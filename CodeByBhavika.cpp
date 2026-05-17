@@ -1304,4 +1304,54 @@ int main(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+//29
+//simple interest
+#include<iostream>
+using namespace std;                     
+int main(){
+    int p, r, t, si;
+    cout<<" enter principal = ";            //The original amount of money
+    cin>>p;
+    cout<<" enter rate = ";                 //The percentage interest
+    cin>>r;
+    cout<<" enter time = ";                 //How long the money is kept
+    cin>>t;
+    
+    si = (p*r*t)/100;                       //formula
+    cout<<"simple interest = "<<si;
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
