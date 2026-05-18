@@ -1479,4 +1479,59 @@ int main(){
 
 
 
+
+
+
+
+//33
+//print name
+#include<iostream>
+using namespace std;     
+int main(){
+    cout<<"bhavika"<< "\nsingh";
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//34
+//print ASCII value
+#include<iostream>
+using namespace std;     
+int main(){
+    char grade = 'B';
+    
+    int value = grade;
+    cout<<"ASCII value of " << grade <<" is = " <<value <<endl;
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
