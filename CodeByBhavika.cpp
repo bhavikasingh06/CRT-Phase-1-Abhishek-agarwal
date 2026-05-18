@@ -1547,6 +1547,7 @@ int main(){
     cout<<"difference = "<< (a-b)<<endl;
     cout<<"multiplication = "<< (a*b)<<endl;
     cout<<"division = "<< (a/b)<<endl;
+    cout<<"modulo = "<< (a%b)<<endl;
     
     return 0;
 }
