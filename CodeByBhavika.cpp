@@ -1532,6 +1532,33 @@ int main(){
 
 
 
+//35
+//calculate
+#include<iostream>
+using namespace std;     
+int main(){
+    int a, b;
+    cout<<"enter first digit = ";
+    cin>>a;
+    cout<<"enter second digit = ";
+    cin>>b;
+    
+    cout<<"sum = "<< (a+b)<<endl;
+    cout<<"difference = "<< (a-b)<<endl;
+    cout<<"multiplication = "<< (a*b)<<endl;
+    cout<<"division = "<< (a/b)<<endl;
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
 
 
     
