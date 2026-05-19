@@ -1580,3 +1580,72 @@ int main(){
 }
 
     
+
+
+
+
+
+
+
+
+
+
+
+AND (&&)
+True only when both are true
+
+A    	B    	A && B
+F	    F    	F
+F	    T	    F
+T	    F	    F
+T	    T	    T
+
+Shortcut:
+Both T → T
+
+
+
+
+OR (||)
+True when at least one is true
+
+A	    B	    A || B
+F	    F    	F
+F    	T    	T
+T    	F    	T
+T    	T    	T
+
+Shortcut:
+Any one T → T
+
+
+
+
+NOT (!)
+Opposite result
+
+A	    !A
+F    	T
+T       F
+
+Shortcut:
+Flips answer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
