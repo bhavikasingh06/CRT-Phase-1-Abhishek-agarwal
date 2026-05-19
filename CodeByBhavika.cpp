@@ -1562,4 +1562,21 @@ int main(){
 
 
 
+
+
+
+
+//36
+//true = 1 
+//false = 0 
+#include<iostream>
+using namespace std;     
+int main(){
+   
+    cout<<(3 > 5)<<endl;
+    cout<<(3 < 5)<< endl;
+    
+    return 0;
+}
+
     
